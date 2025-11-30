@@ -8,9 +8,15 @@ function App() {
     return(
         <>
             <NaveBar />
-            <Body />
-            <About/>
-            <ProductList/>
+            <section>
+                <Body />
+            </section>
+            <section className='About'>
+                <About/>
+            </section>
+            <section>
+                <ProductList/>
+            </section>
         </>
     );
 }

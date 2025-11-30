@@ -4,7 +4,8 @@ function NaveBar(){
     let title="";
     return(
        <>
-       <div className="text">
+    <div id="nav">
+               <div className="text">
         <p>Upto Rs. 200 OFF on the First Order. T&C apply.</p>
        </div>
         <nav>
@@ -18,6 +19,7 @@ function NaveBar(){
                 <Btn></Btn>
             </div>
         </nav>
+    </div>
        
        </>
     );

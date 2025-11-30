@@ -8,7 +8,7 @@ function About (){
             <div className='container-fluid px-3' id='About'>
                 <div className="row">
                     <div className='col-lg-6 col-md-6 col-12'>
-                        <img className='img-fluid' src="./src/assets/images.jpg" alt="" />
+                        <img className='img-fluid' src="./src/assets/logo.png" alt="" />
                     </div>
                     
                     <div  className='col-lg-6 col-md-6 col-12'>
