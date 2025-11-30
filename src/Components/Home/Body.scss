@@ -1,7 +1,7 @@
 
 #Home {
   position: relative;
-  height: 700px;
+  height: 730px;
   width: 100%;
   overflow: hidden;
   background:linear-gradient( rgba(0,0,0,.1),
@@ -9,11 +9,10 @@
             rgba(0,0,0,.3),
             rgba(0,0,0,.4),
             rgba(0,0,0,.5),
-            rgba(0,0,0,.6) 
-            
-            
-  )
-            ;
+            rgba(0,0,0,.6),
+            rgba(0,0,0,.7),
+            rgba(0,0,0,.8),
+               ) ;
 }
 
 #Home::before,
@@ -33,17 +32,22 @@
 }
 
 #Home::before {
-  background: url('https://media.istockphoto.com/id/955973020/photo/fresh-berry-cheesecake-food-photography-recipe-idea.jpg?s=612x612&w=0&k=20&c=nBBXrNFtrfyxyNN8utx9UCuA6BJymsVIp5cKt748P9k=') no-repeat center/cover;
+  background: url('/src/assets/bg2.jpg') no-repeat center/cover;
   animation-delay: 3s;
 }
 
 #Home::after {
-  background: url('https://media.istockphoto.com/id/1097458952/photo/raspberry-dessert-cheesecake-trifle-mouse-in-a-glass-copy-space.jpg?s=612x612&w=0&k=20&c=u1s7XizM1huBeNf67DhOcSMIXGJK2wBVCryULKQLJWQ=') no-repeat center/cover;
+  background: url('/src/assets/one.jpg') no-repeat center/cover;
   animation-delay: 6s;
 }
 
-#Home .bgLayer {
+#Home::before {
   background: url('/src/assets/bg.jpg') no-repeat center/cover;
+  animation-delay: 12s;
+}
+
+#Home .bgLayer {
+  background: url('/src/assets/bg1.jpg') no-repeat center/cover;
   opacity: 1;
 }
 

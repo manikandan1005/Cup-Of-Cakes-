@@ -72,7 +72,7 @@ function ProductList(){
   id: "10",
   name: "Blueberry Bliss Cake",
   price: "₹899",
-  image: "https://images.unsplash.com/photo-1605478371350-0c1c757244c3",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd66BEeal_8fRyzXLrp0kr_4r6V8AhbGaoxQ&s",
   badge: null,
   description: "Fresh blueberry topping with soft vanilla sponge."
 },
@@ -94,9 +94,9 @@ function ProductList(){
 },
 {
   id: "13",
-  name: "Pineapple Cream Delight Cake",
+  name: "Berry Bliss Cake",
   price: "₹699",
-  image: "https://images.unsplash.com/photo-1587668178277-2957f1c0b7a3",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxUS1MjnZ9w-K3f7VkUD7yV93qX88wrgURYQ&s",
   badge: null,
   description: "Soft cream cake infused with fresh pineapple flavor."
 },

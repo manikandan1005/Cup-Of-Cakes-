@@ -11,11 +11,11 @@ function NaveBar(){
         <nav>
             <h1><span>C</span>up <span>O</span>f <span>C</span>akes</h1>
             <div>
-                <a href="">Home</a>
-                <a href="">About Us</a>
-                <a href="">Cakes</a>
-                <a href="">Spical cake</a>
-                <a href="">Contact</a>
+                <a href="#Home">Home</a>
+                <a href="#About">About Us</a>
+                <a href="#Orders">Orders</a>
+                <a href="#SpecialCake">Spical cake</a>
+                <a href="#Contact">Contact</a>
                 <Btn></Btn>
             </div>
         </nav>

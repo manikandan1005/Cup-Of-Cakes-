@@ -8,15 +8,24 @@ function App() {
     return(
         <>
             <NaveBar />
-            <section>
+            <section id='Home'>
                 <Body />
             </section>
-            <section className='About'>
+            <section className='About' id='About'>
                 <About/>
             </section>
-            <section>
+            <section id='Orders'>
+                <h1 className="text-center py-4">Products</h1>
                 <ProductList/>
             </section>
+            <section id="SpecialCake">
+    {/* Your special cake component */}
+</section>
+
+<section id="Contact">
+    {/* Your contact component */}
+</section>
+
         </>
     );
 }
