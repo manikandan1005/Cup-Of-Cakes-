@@ -1,0 +1,12 @@
+        .btn{
+            color: pink !important;
+            background-color: black;
+            border: 2px solid    pink;
+            font-size: 20px;
+            font-weight:bold;
+            &:hover{
+                background-color:rgb(251, 8, 49);
+                color: #fff !important;
+                border: 2px solid #fff;
+            }
+        }
