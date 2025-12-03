@@ -1,8 +1,11 @@
 import NaveBar from './Components/Nav/NaveBar.jsx';
 import Body from './Components/Home/Body.jsx';
 import About from './Components/About/About.jsx';
-import ProductList from './Components/ProductList/ProductList.jsx'
-import './App.scss'
+import ProductList from './Components/ProductList/ProductList.jsx';
+import Contact from './Components/Contact/Contact.jsx';
+import Login from './Components/Loginn/Login.jsx'
+import './App.scss';
+import SpecialCake from './Components/SpecialCake/SpecialCake.jsx'
 
 function App() {
     return(
@@ -19,14 +22,17 @@ function App() {
                 <ProductList/>
             </section>
             <section id="SpecialCake">
-    {/* Your special cake component */}
+                <h1 className="text-center py-4">Special Cake</h1>
+                <SpecialCake/>
 </section>
 
 <section id="Contact">
-    {/* Your contact component */}
+        <Contact/>
 </section>
 
         </>
+
+// <Login/>
     );
 }
 

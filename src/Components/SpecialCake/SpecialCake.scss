@@ -1,0 +1,14 @@
+label{
+    color: black;
+}
+input{
+    width: 100% !important;
+}
+
+.row .button{
+    display: flex;
+    justify-content: center;
+    .btn{
+        padding: 5px 35px;
+    }
+}
