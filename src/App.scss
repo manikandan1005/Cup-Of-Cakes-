@@ -12,3 +12,11 @@ section{
     margin-bottom: 15px;
   }
 }
+.orders{
+  display: flex;
+}
+.orders .filter{
+  position: sticky;
+  top:150px;
+  height: fit-content;
+}

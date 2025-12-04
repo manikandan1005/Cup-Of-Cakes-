@@ -1,0 +1,15 @@
+.Filter{
+    // width: 300px;
+    h3{
+        margin-bottom: 17px;
+    }
+    .btn{
+        margin:10px 5px;
+        background-color: pink !important;
+        color: #fff !important;
+        &:hover{
+            border: 2px solid rgb(251, 8, 49);
+            color: rgb(251, 8, 49) !important;
+        }
+    }
+}
